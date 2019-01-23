@@ -71,6 +71,9 @@ ul{
 	height: 200px;
 	position: relative;
 }
+#welcome-section h3{
+	padding-top: 50px;
+}
 
 /* Sublist */
 .sublist-section {
