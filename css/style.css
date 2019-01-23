@@ -1,0 +1,292 @@
+body{
+	font-family: Arial, helvetica, Sans-Serif;
+	font-size: 11px;
+	line-height: 1.6em;
+	margin: 0px;
+	padding: 0px;
+	background-color: #FAF6E7;
+}
+
+#headcontainer{
+	margin: 0px;
+	background-color: #007800;
+}
+
+#logocontainer{
+	margin: 0px auto 0px auto;
+	height: 100px;
+	width: 960px;
+	background-image: url(../img/ucbannerlogo.png);
+	background-size: 300px 100px;
+	background-repeat: no-repeat;
+}
+#menu{
+	margin: 0px;
+	background-color: #235252;
+}
+ul#menucontainer{
+	font-family: Verdana, Arial, Helvetica, Sans-serif;
+	padding: 0px;
+	line-height: 1.0em;
+	z-index: 99;
+	width: 960px;
+	margin: 0px auto 0px auto;
+}
+ul#menucontainer li.selected{
+	background-color: #c59030;
+}
+ul#menucontainer li{
+	display: block;
+	float: left;
+	position: relative;
+	height: 26px;
+	z-index: 99;
+}
+ul{
+	display: block;
+	list-style-type:disc;
+	padding: 15px; 
+}
+.clearfix:after{
+	content: ".";
+	display: block;
+	height: 0;
+	clear: both;
+	visibility: hidden;
+}
+#maincontainer{
+	margin-top: 0px;
+	margin-left: auto;
+	margin-right: auto;
+	width: 960px;
+	position: relative;
+}
+
+/* Welcome */
+#welcome-section {
+	background-color: #f5f5f5;
+	margin-left: auto;
+	margin-right: auto;
+	width: 960px;
+	height: 200px;
+	position: relative;
+}
+
+/* Sublist */
+.sublist-section {
+	margin-top: 0px;
+	margin-left: auto;
+	margin-right: auto;
+	width: 960px;
+	position: relative;
+	padding: 50px 70px 50px 70px;
+	background-color: white;
+}
+
+/* Standard Picture */
+.picture-section {
+	background-color: #f5f5f5;
+	padding: 50px 70px 50px 70px;
+}
+
+.picture-section-heading {
+	font-size: 30px;
+	position: relative;
+	padding-top: 20px; 
+}
+.picture-section-heading:after {
+	content: "";
+	left: 0%;
+	top: 65px;
+	position: absolute;
+	width: 40px;
+	height: 2px;
+	background: #007800; 
+}
+
+/* Benefits */
+.benefits-section {
+	background-color: white;
+	padding: 50px 70px 50px 70px;
+	height: 350px;
+}
+.benefits-section-heading {
+	font-size: 30px;
+	position: relative;	
+	padding-top: 20px; 
+	text-align: center;
+}
+.benefits-section-heading:after {
+	display: flex;
+	text-align: center;
+	left: 50%;
+	content: "";
+	top: 65px;
+	position: absolute;
+	width: 40px;
+	height: 2px;
+	background: #007800;
+}
+
+/* Academic Programs */
+.academic-programs-section {
+	background-color: white;
+	padding: 50px 70px 50px 70px;
+}
+.academic-programs-section-heading {
+	font-size: 30px;
+	position: relative;	
+	padding-top: 20px; 
+	text-align: center;
+}
+.academic-programs-section-heading:after {
+	display: flex;
+	text-align: center;
+	left: 50%;
+	content: "";
+	top: 65px;
+	position: absolute;
+	width: 40px;
+	height: 2px;
+	background: #007800;
+}
+.academic-programs-section-subtext{
+	padding-bottom: 30px;
+}
+.testimonial {
+    color: #808080;
+    position: relative;
+    padding: 15px;
+    background: #f1f1f1;
+    border: 1px solid #efefef;
+    border-radius: 3px;
+	margin-bottom: 15px;
+}
+.testimonial::after {
+	content: "";
+	width: 15px;
+	height: 15px;
+	display: block;
+	background: #f1f1f1;
+	border: 1px solid #efefef;
+	border-width: 0 0 1px 1px;
+	position: absolute;
+	bottom: -8px;
+	right: 30px;
+	transform: rotateZ(-46deg);
+}
+/* Enroll */
+#enroll-section{
+	background-color: black;
+	margin-left: auto;
+	margin-right: auto;
+	width: 960px;
+	height: 200px;
+	position: relative;
+}
+#enroll-section h3{
+	color: white;
+	font-size: 24px;
+	text-align: center;
+	padding-top: 30px;
+}
+#enroll-banner{
+	text-align: center;
+}
+#enroll-section p{
+	color: white;
+	font-size: 14px;
+	max-width: 600px;
+	text-align: center;
+	margin-left: auto;
+	margin-right: auto;
+	padding-top: 2px;
+}
+.enroll-banner button{
+	text-align: center;
+	color: white;
+	border-color: white;
+}
+
+
+/* Contact */
+.contact-section {
+	background-color: white;
+	padding: 50px 70px 50px 70px;
+}
+.contact-section-heading {
+	font-size: 30px;
+	position: relative;	
+	padding-top: 20px; 
+	text-align: center;
+}
+.contact-section-heading:after {
+	display: flex;
+	text-align: center;
+	left: 50%;
+	content: "";
+	top: 65px;
+	position: absolute;
+	width: 40px;
+	height: 2px;
+	background: #007800;
+}
+
+.carousel-caption{
+	 background-color: rgba(0, 0, 0, 0.5);
+	 left: 5%;
+     text-align: left;
+     font-size: 1.3em;
+     max-width: 400px;
+     right: auto;
+     padding: 25px;
+}
+.carousel-caption h3{
+	font-size: 24px;
+}
+.carousel-caption button{
+	color: white;
+	border-color: white;
+}
+.carousel-indicators {
+  position: absolute;
+  bottom: 20px;
+  left: 47%;
+  z-index: 15;
+  width: 50%;
+  padding-left: 0;
+  margin-left: -30%;
+  text-align: center;
+  list-style: none;
+}
+.carousel-indicators li {
+  display: inline-block;
+  width: 10px;
+  height: 10px;
+  margin: 1px;
+  text-indent: -999px;
+  cursor: pointer;
+  background-color: #000 \9;
+  background-color: rgba(0, 0, 0, 0);
+  border: 1px solid #fff;
+  border-radius: 15px;
+}
+#title-bar{
+	background-color: white;
+	box-shadow: 0px 2px 4px grey;
+	height: 120px;
+}
+#title-bar h3{
+	font-size: 22px;
+	font-style: bold;
+	padding: 20px 0px 0px 25px;
+}
+
+#title-bar p{
+	font-size: 14px;
+	padding: 8px 0px 0px 25px;
+	max-width: 500px
+}
+
+
+
