@@ -61,18 +61,22 @@
 
 #title-bar{
 	background-color: white;
-	height: 120px;
+	/*height: 120px;*/
+	margin-left: auto;
+	margin-right: auto;
+	position: relative;
 }
 #title-bar h3{
 	font-size: 22px;
 	font-style: bold;
-	padding: 20px 0px 0px 25px;
+	padding-top: 20px;
+	text-align: center;
 }
 
 #title-bar p{
 	font-size: 14px;
-	padding: 8px 0px 0px 25px;
-	max-width: 500px
+	/*max-width: 500px;*/
+	text-align:center;
 }
 
 #welcome-section {
@@ -83,13 +87,22 @@
 	position: relative;
 }
 
+#welcome-section h3{
+	font-size: 22px;
+	font-style: bold;
+	font-family: Arial Black;
+}
+#welcome-section p{
+	font-size: 16px;
+	max-width: 1000px;
+}
 .sublist-section {
 	margin-top: 1vh;
 	margin-left: auto;
 	margin-right: auto;
 	width: 960px;
 	position: relative;
-	padding: 50px 70px 50px 70px;
+	padding: 50px 70px 50px 50px;
 	background-color: white;
 }
 
@@ -120,7 +133,7 @@
 	margin-right: auto;
 	width: 960px;
 	position: relative;
-	padding: 50px 70px 50px 70px;
+	padding: 50px 70px 10px 70px;
 }
 .benefits-section-heading {
 	font-size: 30px;
@@ -136,7 +149,7 @@
 	margin-right: auto;
 	width: 960px;
 	position: relative;
-	padding: 50px 70px 50px 70px;
+	padding: 20px 70px 50px 70px;
 }
 .academic-programs-section-heading {
 	font-size: 30px;
@@ -212,7 +225,7 @@
 	margin-right: auto;
 	width: 960px;
 	position: relative;
-	padding: 50px 70px 50px 70px;
+	padding: 50px 70px 20px 70px;
 }
 .contact-section-heading {
 	font-size: 30px;
@@ -233,12 +246,12 @@
 
 .footer-info-text{
 	text-align: justify; 
-	padding: 0px 70px 50px 70px;
+	padding: 0px 70px 20px 70px;
 }
 
 .footer-contact-text{
 	text-align: justify; 
-	padding: 0px 70px 50px 70px;
+	padding: 0px 70px 20px 70px;
 }
 
 hr {
