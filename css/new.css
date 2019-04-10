@@ -1,0 +1,247 @@
+*{
+	font-family: Arial, helvetica, Sans-Serif;
+	font-size: 11px;
+	line-height: 1.6em;
+	margin: 0px;
+	padding: 0px;
+}
+
+
+.headcontainer{
+	margin: 0px;
+	width:100%;
+	background-color: green;
+}
+
+.headerlogo{
+	width:  300px;
+	height: 100px;
+}
+
+.carousel-caption{
+	 background-color: rgba(0, 0, 0, 0.5);
+	 left: 5%;
+     text-align: left;
+     font-size: 1.3em;
+     max-width: 400px;
+     right: auto;
+     padding: 25px;
+}
+
+.carousel-caption h3{
+	font-size: 24px;
+}
+.carousel-caption button{
+	color: white;
+	border-color: white;
+}
+.carousel-indicators {
+  position: absolute;
+  bottom: 20px;
+  left: 55%;
+  z-index: 15;
+  width: 50%;
+  padding-left: 0;
+  margin-left: -30%;
+  text-align: center;
+  list-style: none;
+}
+.carousel-indicators li {
+  display: inline-block;
+  width: 10px;
+  height: 10px;
+  margin: 1px;
+  text-indent: -999px;
+  cursor: pointer;
+  background-color: #000 \9;
+  background-color: rgba(0, 0, 0, 0);
+  border: 1px solid #fff;
+  border-radius: 15px;
+}
+
+#title-bar{
+	background-color: white;
+	height: 120px;
+}
+#title-bar h3{
+	font-size: 22px;
+	font-style: bold;
+	padding: 20px 0px 0px 25px;
+}
+
+#title-bar p{
+	font-size: 14px;
+	padding: 8px 0px 0px 25px;
+	max-width: 500px
+}
+
+#welcome-section {
+	padding:15vh;
+	background-color: #f5f5f5;
+	margin-left: auto;
+	margin-right: auto;
+	position: relative;
+}
+
+.sublist-section {
+	margin-top: 1vh;
+	margin-left: auto;
+	margin-right: auto;
+	width: 960px;
+	position: relative;
+	padding: 50px 70px 50px 70px;
+	background-color: white;
+}
+
+/* Standard Picture */
+.picture-section {
+	background-color: #f5f5f5;
+/*	padding: 50px 70px 50px 70px;*/
+	margin-top: 1vh;
+	margin-left: auto;
+	margin-right: auto;
+	width: 960px;
+	position: relative;
+	padding: 50px 70px 50px 70px;
+
+}
+
+.picture-section-heading {
+	font-size: 30px;
+	position: relative;
+	padding-top: 4vh; 
+}
+
+/* Benefits */
+.benefits-section {
+/*	padding: 50px 70px 50px 70px;*/
+	margin-top: 1vh;
+	margin-left: auto;
+	margin-right: auto;
+	width: 960px;
+	position: relative;
+	padding: 50px 70px 50px 70px;
+}
+.benefits-section-heading {
+	font-size: 30px;
+	position: relative;	
+	padding-top: 20px; 
+	text-align: center;
+}
+
+/* Academic Programs */
+.academic-programs-section {
+	margin-top: 1vh;
+	margin-left: auto;
+	margin-right: auto;
+	width: 960px;
+	position: relative;
+	padding: 50px 70px 50px 70px;
+}
+.academic-programs-section-heading {
+	font-size: 30px;
+	position: relative;	
+	padding: 2vh 0vw 1vh 0vw; 
+	text-align: center;
+}
+.academic-programs-section-subtext{
+	padding-bottom: 30px;
+}
+.testimonial {
+    color: #808080;
+    position: relative;
+    padding: 15px;
+    background: #f1f1f1;
+    border: 1px solid #efefef;
+    border-radius: 3px;
+	margin-bottom: 15px;
+}
+.testimonial::after {
+	content: "";
+	width: 15px;
+	height: 15px;
+	display: block;
+	background: #f1f1f1;
+	border: 1px solid #efefef;
+	border-width: 0 0 1px 1px;
+	position: absolute;
+	bottom: -8px;
+	right: 30px;
+	transform: rotateZ(-46deg);
+}
+
+
+#enroll-section{
+	background-color: black;
+	margin-top: 1vh;
+	margin-left: auto;
+	margin-right: auto;
+	width: 960px;
+	position: relative;
+	padding: 50px 70px 50px 70px;
+}
+#enroll-section h3{
+	color: white;
+	font-size: 24px;
+	text-align: center;
+	padding-top: 30px;
+}
+#enroll-banner{
+	text-align: center;
+}
+#enroll-section p{
+	color: white;
+	font-size: 14px;
+	max-width: 600px;
+	text-align: center;
+	margin-left: auto;
+	margin-right: auto;
+	padding-top: 2px;
+}
+.enroll-banner button{
+	text-align: center;
+	color: white;
+	border-color: white;
+}
+
+/* Contact */
+.contact-section {
+	background-color: white;
+	margin-top: 1vh;
+	margin-left: auto;
+	margin-right: auto;
+	width: 960px;
+	position: relative;
+	padding: 50px 70px 50px 70px;
+}
+.contact-section-heading {
+	font-size: 30px;
+	position: relative;	
+	padding-top: 20px; 
+	text-align: center;
+}
+
+.footer{
+	padding: 50px 70px 0px 70px;
+	background-color: green;
+	color: white;	
+}
+
+#footer-image{
+	width: 100px;
+}
+
+.footer-info-text{
+	text-align: justify; 
+	padding: 0px 70px 50px 70px;
+}
+
+.footer-contact-text{
+	text-align: justify; 
+	padding: 0px 70px 50px 70px;
+}
+
+hr {
+	color:white;
+	height: 5px;
+}
